@@ -1,58 +1,65 @@
-This project stated as the rvc-monitor-py program.
-Work has just started......
+# rvc-monitor-2
 
-
-# rvc-monitor-py
 RV-C Monitor - Python Edition
 
-Enables two-way communication between an RV's CAN-Bus network and an MQTT message broker:
+Monitors and decodes the [RV-C CAN-Bus protocol](http://www.rv-c.com/?q=node/75) (and a bit of SAE J1939),
+printing each decoded message as one JSON object per line on stdout. Can read from a live CAN interface or
+replay a previously captured JSON-lines file.
 
-- Monitor and decode [RV-C CAN-Bus protocol](http://www.rv-c.com/?q=node/75), and
-publish to MQTT as JSON data.
-- Receive RV-C commands over MQTT from other applications and send them to the CAN-Bus.
-
+This project began as a fork of [rvc-monitor-py](https://github.com/linuxkidd/rvc-monitor-py); see `NOTICE`
+for details.
 
 ```
-usage: rvc2mqtt.py [-h] [-b BROKER] [-d {0,1,2}] [-i INTERFACE] [-m {0,1,2}]
-                   [-o {0,1}] [-s SPECFILE] [-t TOPIC]
+usage: rvc-monitor-2 [-h] [-i INTERFACE] [-t TYPE] [-r REPLAY] [-s SPECFILE]
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
-  -b BROKER, --broker BROKER
-                        MQTT Broker Host
-  -d {0,1,2}, --debug {0,1,2}
-                        debug data
   -i INTERFACE, --interface INTERFACE
                         CAN interface to use
-  -m {0,1,2}, --mqtt {0,1,2}
-                        Send to MQTT, 1=Publish, 2=Retain
-  -o {0,1}, --output {0,1}
-                        Dump parsed data to stdout
+  -t TYPE, --type TYPE  CAN bus type/backend (default: slcan); other options
+                        supported by python-can: canalystii, cantact, etas,
+                        gs_usb, iscan, ixxat, kvaser, neousys, neovi, nican,
+                        nixnet, pcan, robotell, seeedstudio, serial, slcan,
+                        socketcan, socketcand, systec, udp_multicast, usb2can,
+                        vector, virtual
+  -r REPLAY, --replay REPLAY
+                        replay saved output
   -s SPECFILE, --specfile SPECFILE
-                        RVC Spec file
-  -t TOPIC, --topic TOPIC
-                        Set top-level MQTT topic (default: "RVC")
-  -p, -pstrings
-                        Send parameterized strings to mqtt
+                        RVC/J1939 Spec file; repeat -s to load multiple
+                        (default: /etc/rvc/rvc-spec.yml and
+                        /etc/rvc/sae-j1939.yml)
 ```
+
+## Usage
+
+```
+# Live decode from a CAN interface, JSON to stdout
+usr/bin/rvc-monitor-2 -i can0
+
+# Replay a previously captured JSON-lines file instead of live CAN
+usr/bin/rvc-monitor-2 -r some-capture.rvc
+
+# Load additional/alternate spec files (repeatable; later files win on key collisions)
+usr/bin/rvc-monitor-2 -i can0 -s etc/rvc/rvc-spec.yml -s etc/rvc/sae-j1939.yml
+
+# Use a different python-can backend (default: slcan) e.g. a native SocketCAN interface
+usr/bin/rvc-monitor-2 -i can0 -t socketcan
+```
+
+Decoded output goes to stdout only, so it can be piped (e.g. into `jq`) or redirected to a file to create a
+new replay capture for later use with `-r`.
 
 ## Requirements
 
-* A computer with a CAN-Bus interface. This will usually be a
-Raspberry Pi 3B with a PiCAN2 board. Install the canbus utilities:
-  ~~~
-  sudo apt -y install can-utils
-  ~~~
-  Add the following to the end of /boot/config.txt to enable the canbus card:
-  ~~~
-  dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
-  ~~~
-* Python packages dependancies:
+* A computer with a CAN-Bus interface. 
+
+* Python package dependencies:
   ~~~
   pip3 install -r requirements.txt
   ~~~
-* An MQTT message broker, such as Mosquitto.
-  ~~~
-  sudo apt -y install mosquitto
-  ~~~
 
+## Tests
+
+```
+pytest
+```
