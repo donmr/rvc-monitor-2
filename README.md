@@ -1,3 +1,7 @@
+This project stated as the rvc-monitor-py program.
+Work has just started......
+
+
 # rvc-monitor-py
 RV-C Monitor - Python Edition
 

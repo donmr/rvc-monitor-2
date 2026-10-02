@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# See NOTICE file for previous projects that code was used from
+
 import argparse,array,can,json,os,queue,re,signal,threading,time
 import ruamel.yaml as yaml
 import sys
