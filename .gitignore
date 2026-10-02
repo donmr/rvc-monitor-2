@@ -4,3 +4,4 @@ etc/rvc/rvc_table2yaml.py
 Captures/
 __pycache__/
 .pytest_cache/
+myrun

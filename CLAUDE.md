@@ -16,7 +16,7 @@ everything runs directly as Python 3 scripts.
 The entry point is `usr/bin/rvc-monitor-2`, a thin wrapper that calls the Python script with the repo-local spec file:
 
 ```
-./test                       # runs: ./usr/bin/rvc-monitor-2 -s etc/rvc/rvc-spec.yml
+./myrun                       # runs: ./usr/bin/rvc-monitor-2 -s etc/rvc/rvc-spec.yml
 ./usr/bin/rvc-monitor-2 -i can0                       # live decode from a CAN interface, JSON to stdout
 ./usr/bin/rvc-monitor-2 -r solar.rvc                  # replay a captured JSON-lines file instead of live CAN
 ./usr/bin/rvc-monitor-2 -d 1 -i can0                  # with debug tracing to stderr
