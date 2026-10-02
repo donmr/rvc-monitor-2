@@ -3133,6 +3133,18 @@ API_VERSION: 0.5
 
 1FEF3:
   name: AWNING_STATUS
+  parameters:
+    - byte: 0
+      name: instance
+      type: uint8
+    - byte: 1
+      name: Motion
+      type: uint8
+      values: {0: No motion, 1: Extending, 2: Retracting}
+    - byte: 2
+      name: Position
+      type: uint8
+      unit: pct
 
 1FEF2:
   name: AWNING_COMMAND
@@ -3677,7 +3689,28 @@ Z0005:
 1FEAB: {name: DC_SOURCE_STATUS_8}
 1FEAA: {name: DC_SOURCE_STATUS_9}
 1FEA9: {name: DC_SOURCE_STATUS_10}
-1FEA8: {name: CHASSIS_MOBILITY_STATUS_2}
+
+1FEA8: 
+  name: CHASSIS_MOBILITY_STATUS_2
+  parameters:
+    - name: Steering Wheel Angle
+      byte: 0-1
+      type: uint16
+      unit: rad
+    - name: Headlight Switch
+      byte: 2
+      bit: 0-1
+      type: uint2
+      values: {0: Off, 1: On}
+    - name: Fule Level
+      byte: 3
+      type: uint8
+      unit: pct
+    - name: Odometer
+      byte: 4-7
+      type: uint32
+      unit: m
+
 1FEA7: {name: ROOF_FAN_STATUS_1}
 1FEA6: {name: ROOF_FAN_COMMAND_1}
 
@@ -3859,7 +3892,89 @@ Z0005:
 1FE8A: {name: BATTERY_COMMAND}
 1FE89: {name: STEP_STATUS}
 1FE88: {name: STEP_COMMAND}
-1FE87: {name: VEHICLE_ENVIRONMENT_STATUS}
+
+1FE87: 
+  name: VEHICLE_ENVIRONMENT_STATUS
+  parameters:
+    - name: Ventilated Space
+      byte: 0
+      bit: 0-1
+      type: uint2
+      values: 
+        0: RV is in a ventilated space
+        1: Space is not ventilated
+        2: Cannot be determined
+    - name: Heated Space
+      byte: 0
+      bit: 2-3
+      type: uint2
+      values: 
+        0: RV is in a heated space or mild climate
+        1: Space is not heated
+        2: Cannot be determined
+    - name: Shore Power Available
+      byte: 0
+      bit: 4-5
+      type: uint2
+      values: 
+        0: No Shore Power
+        1: AC power is available
+    - name: Open Space
+      byte: 0
+      bit: 6-7
+      type: uint2
+      values: 
+        0: RV is in an open space
+        1: RV is in a confined space
+        2: Cannot be determined
+    - name: Water Hookup
+      byte: 1
+      bit: 0-1
+      type: uint2
+      values: 
+        0: No hookup
+        1: Connected to fresh water
+    - name: Sewer Hookup
+      byte: 1
+      bit: 2-3
+      type: uint2
+      values: 
+        0: No hookup
+        1: Connected to sewer
+    - name: Internet Connection Available
+      byte: 1
+      bit: 4-5
+      type: uint2
+      values: 
+        0: No internet connection is available
+        1: An internet connection is available
+    - name: Trailer is Hitched
+      byte: 1
+      bit: 6-7
+      type: uint2
+      values: 
+        0: Trailer is not hiched to a tow vehicle
+        1: Trailer is hiched to a tow vehicle
+    - name: Tow Car or Trailer in Tow
+      byte: 2
+      bit: 0-1
+      type: uint2
+      values: 
+        0: No trailer or tow car is present
+        1: A trailer or tow car is presently hitched behind
+    - name: Vehicle Stabilized
+      byte: 2
+      bit: 2-3
+      type: uint2
+      values: 
+        0: Not stabilized
+        1: Jacks deployed
+    - name: Ambient Light Level
+      byte: 3
+      type: uint8
+      unit: pct
+
+
 1FE86: {name: VEHICLE_ENVIRONMENT_COMMAND}
 
 1FE85: 

@@ -1,0 +1,55 @@
+# These values are extracted from various openly available documents.
+# They are not based on the official SAE document.
+
+0FEF1: {name: CRUISE_CONTROL/VEHICLE_SPEED}
+0FEEF: {name: ENGINE_FLUID_LEVEL/PRESSURE_1}
+
+0FEEE: 
+  name: ENGINE_TEMPERATURE_1
+  parameters:
+    - name: Engine Coolant Temperature
+      byte: 0
+      type: uint8
+      unit: deg C
+    - name: Fuel Temperature
+      byte: 1
+      type: uint8
+      unit: deg C
+    - name: Oil Temperature
+      byte: 2-3
+      type: uin16t
+      unit: deg C
+    - name: Turbocharger Oil Temperature
+      byte: 4-5
+      type: uin16t
+      unit: deg C
+    - name: Engine Intercooler Temperature
+      byte: 6
+      type: uint8
+      unit: deg C
+    - name: Engine Intercooler Opening
+      byte: 7
+      type: uint8
+      unit: deg C
+
+
+0FECA: {name: ACTIVE_DIAGNOSTIC_TROUBLE_CODES}
+
+0F004: 
+  name: ELECTRONIC_ENGINE_CONTROLLER_1
+  parameters:
+    - name: Engine Speed
+      byte: 3-4
+      type: uint16
+      unit: rpm
+
+0F003: {name: ELECTRONIC_ENGINE_CONTROLLER_2}
+0EEFF: {name: ADDRESS_CLAIM}
+
+0EA00: 
+  name: REQUEST_PGN
+  parameters:
+    - name: Requested PGN
+      byte: 0-2     # Guess on mapping from 3 byte message
+      type: uint24
+      unit: rpm

@@ -2,13 +2,14 @@
 
 import argparse,array,can,json,os,queue,re,signal,threading,time
 import ruamel.yaml as yaml
+import sys
 
 
 def signal_handler(signal, frame):
     global t
-    print('')
-    print('You pressed Ctrl+C!  Exiting...')
-    print('')
+    print('', file=sys.stderr)
+    print('You pressed Ctrl+C!  Exiting...', file=sys.stderr)
+    print('', file=sys.stderr)
     t.kill_received = True
     exit(0)
 
@@ -26,7 +27,7 @@ class CANWatcher(threading.Thread):
             q.put(message)  # Put message into queue
 
 def rvc_decode(mydgn, mydata):
-    result = { 'dgn':mydgn, 'data':mydata, 'name':"UNKNOWN-"+mydgn }
+    result = {'data':mydata, 'name':"UNKNOWN-"+mydgn }
     if mydgn not in spec:
         return result
 
@@ -126,9 +127,10 @@ def tempC2F(degc):
 def convert_unit(myvalue,myunit,mytype):
     new_value = myvalue
     mu = myunit.lower()
+
     if mu == 'pct':
         if myvalue != 255:
-            new_value = myvalue / 2
+            new_value = str(myvalue / 2) + '%'
 
     elif mu == 'deg c':
         new_value = 'n/a'
@@ -181,6 +183,12 @@ def convert_unit(myvalue,myunit,mytype):
     elif mu == 'bitmap':
         new_value = "{0:08b}".format(myvalue)
 
+    #### J1939
+
+    elif mu == 'rpm':
+        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
+            new_value = round( myvalue / 8, 2)
+
     return new_value
 
 def main():
@@ -192,7 +200,8 @@ def main():
             line = next(infile, None)
             if line is None: exit()
             data = json.loads(line)
-            myresult=rvc_decode(data['dgn'], data['data'])
+            initial = {'dgn': data['dgn'], 'pri': data['pri'], 'src': data['src']}
+            myresult = initial | rvc_decode(data['dgn'], data['data'])
         ###
         else:
             if q.empty():  # Check if there is a message in queue
@@ -215,7 +224,9 @@ def main():
                     print("DGN: {0:s}, Prio: {1:d}, srcAD: {2:s}, Data: {3:s}".format(
                         dgn,prio,srcAD,", ".join("{0:02X}".format(x) for x in message.data)))
 
-                myresult=rvc_decode(dgn,"".join("{0:02X}".format(x) for x in message.data))
+                initial = {'dgn': dgn, 'pri': prio, 'src': srcAD}
+                myresult = initial | \
+                    rvc_decode(dgn,"".join("{0:02X}".format(x) for x in message.data))
 
         # Print from either source
         print(json.dumps(myresult))
@@ -231,7 +242,8 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--debug", default = 0, type=int, choices=[0, 1, 2], help="debug data")
     parser.add_argument("-i", "--interface", default = "can0", help="CAN interface to use")
     parser.add_argument("-r", "--replay", default = None, help="replay saved output")
-    parser.add_argument("-s", "--specfile", default = "/etc/rvc/rvc-spec.yml", help="RVC Spec file")
+    parser.add_argument("-s", "--specfile", default = "/etc/rvc/rvc-spec.yml", help="RVC Spec file"),
+    parser.add_argument("-j", "--j1939specfile", default = "/etc/rvc/sae-j1939.yml", help="SAE J1939 Spec file")
     args = parser.parse_args()
 
     debug_level = args.debug
@@ -241,31 +253,41 @@ if __name__ == "__main__":
         try:
             infile = open(args.replay, 'r')
         except:
-            print('Error opening {args.replay} as input')
+            print('Error opening {args.replay} as input', file=sys.stderr)
             exit()
 ###
 
     else:
         try:
-            print("Connecting to CAN-Bus interface: {0:s}".format(args.interface))
+            print("Connecting to CAN-Bus interface: {0:s}".format(args.interface), file=sys.stderr)
             bus = can.interface.Bus(
                     channel=args.interface, 
-                    bustype='socketcan',
+                    bustype='slcan',    #socketcan',
                     bitrate=250000,
                     )
         except OSError:
-            print('Cannot find interface.')
+            print('Cannot find interface.', file=sys.stderr)
             exit()
 
-    print("Loading RVC Spec file {}.".format(args.specfile))
+    print("Loading RVC Spec file {}.".format(args.specfile), file=sys.stderr)
     with open(args.specfile,'r') as specfile:
         try:
-            spec=yaml.round_trip_load(specfile)
+            rvc_spec=yaml.round_trip_load(specfile)
         except yaml.YAMLError as err:
-            print(err)
+            print(err, file=sys.stderr)
             exit(1)
 
-    print("Processing start...")
+    print("Loading SAE Spec file {}.".format(args.j1939specfile), file=sys.stderr)
+    with open(args.j1939specfile,'r') as specfile:
+        try:
+            sae_spec=yaml.round_trip_load(specfile)
+        except yaml.YAMLError as err:
+            print(err, file=sys.stderr)
+            exit(1)
+
+    spec = rvc_spec | sae_spec
+
+    print("Processing start...", file=sys.stderr)
 
     q = queue.Queue()
     if args.replay is None:
