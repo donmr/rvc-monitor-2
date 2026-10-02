@@ -2,5 +2,5 @@ This program began with the rvc-monitor-py tool found here:
 
 	https://github.com/linuxkidd/rvc-monitor-py
 
-The MPPT function has been removed and the RVC and J1939 specs have been updated.
+The MQTT function has been removed and the RVC and J1939 specs have been updated.
 

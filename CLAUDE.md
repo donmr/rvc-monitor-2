@@ -1,4 +1,4 @@
-# CLAUDE.md
+QTTLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working
 with code in this repository.
@@ -35,7 +35,7 @@ go to **stdout** only — this keeps `stdout` pipeable (e.g. into `jq`,
 or saved as a `.rvc` capture file for later `-r` replay).
 
 Dependencies (`requirement.txt`, note the non-standard filename — not `requirements.txt`):
-`python-can`, `ruamel.yaml`, `paho.mqtt`. Install with `pip3 install -r requirement.txt`.
+`python-can`, `ruamel.yaml`. Install with `pip3 install -r requirement.txt`.
 
 ## Architecture
 
@@ -67,10 +67,6 @@ describes *how to extract a value from the raw payload*, not just what it's call
 - `values`: maps decoded integer values to human-readable enum strings (adds a `"<name> definition"` field).
 - `alias`: a DGN entry can borrow another DGN's `parameters` list (see usage in `rvc_decode`) for near-duplicate
   messages.
-
-**`rvc-spec.yml` is explicitly versioned** (`API_VERSION` field) — it states in its own header comment that
-changes to field names/casing can break downstream MQTT consumers, so treat renames there as a compat-breaking
-change, not a free-form edit.
 
 `etc/rvc/rvc_table2yaml.py` is a one-off generator: given the official RVIA DGN table
 (`etc/rvc/RV-C_DGN_Table_RVIA.txt`, a whitespace-columnar text dump) and an existing `rvc-spec.yml`, it adds
