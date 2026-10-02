@@ -19,18 +19,17 @@ The entry point is `usr/bin/rvc-monitor-2`, a thin wrapper that calls the Python
 ./myrun                       # runs: ./usr/bin/rvc-monitor-2 -s etc/rvc/rvc-spec.yml
 ./usr/bin/rvc-monitor-2 -i can0                       # live decode from a CAN interface, JSON to stdout
 ./usr/bin/rvc-monitor-2 -r solar.rvc                  # replay a captured JSON-lines file instead of live CAN
-./usr/bin/rvc-monitor-2 -d 1 -i can0                  # with debug tracing to stderr
 ```
 
 Key flags (see `usr/bin/rvc-monitor-2` argparse block): `-i/--interface` (CAN iface, default `can0`),
 `-r/--replay` (read a previously saved `.rvc` JSON-lines file instead of a live bus — mutually exclusive with
 live CAN), `-s/--specfile` (spec YAML; repeatable — `-s a.yml -s b.yml` merges both, later files winning on
 key collisions; defaults to `/etc/rvc/rvc-spec.yml` and `/etc/rvc/sae-j1939.yml` together if `-s` is never
-given, but **any** explicit `-s` fully replaces that default pair rather than adding to it), `-d/--debug {0,1,2}`.
-There is no more dedicated `-j/--j1939specfile` flag — pass the J1939 spec as another `-s`.
-
-All informational/debug output goes to **stderr**; decoded JSON results go to **stdout** only — this keeps
-`stdout` pipeable (e.g. into `jq`, or saved as a `.rvc` capture file for later `-r` replay).
+given, but **any** explicit `-s` fully replaces that default pair rather than adding to it). There is no
+`-j/--j1939specfile` flag — pass the J1939 spec as another `-s`. There is also no debug/verbosity flag
+(removed along with the old debug-gated tracing prints) — the only runtime output is error/interrupt
+messages on stderr plus one decoded JSON line on stdout per message. This keeps `stdout` pipeable (e.g. into
+`jq`, or saved as a `.rvc` capture file for later `-r` replay).
 
 There is no MQTT publishing in the current `usr/bin/rvc-monitor-2` tool. `usr/bin/rvc2mqtt.py` (untracked,
 WIP) is an older sibling script that still has MQTT publish/subscribe logic (`paho.mqtt`) and a slightly
@@ -77,11 +76,14 @@ threading, and CLI handling so other programs can decode RV-C/J1939 frames witho
   bootstrap relative to its own file location (the package isn't pip-installed — it's a plain importable
   directory at the repo root).
 
-**Decode pipeline**, driven from `usr/bin/rvc-monitor-2`:
-1. A background thread (`CANWatcher`) reads raw frames from `python-can` and pushes them onto a `queue.Queue`.
-   In replay mode (`-r`) there's no bus/thread at all — lines are read directly from the replay file instead.
-2. The main loop (`getLine`) pulls one message at a time, calls `parse_arbitration_id` to get
-   `prio`/`dgn`/`src`, then calls `rvc_decode(dgn, hex_data, spec)` where `spec` is built once at startup by
+**Decode pipeline** — all of it, including argument parsing, lives directly in `main()` in
+`usr/bin/rvc-monitor-2` (no helper functions split out):
+1. Live mode is a single-threaded blocking loop: `while True: message = bus.recv(); ...` — no background
+   thread/queue (there used to be one; it was removed as unnecessary now that nothing downstream of decode is
+   slow enough to need read/process decoupling). Replay mode (`-r`) instead just iterates lines from the
+   replay file; neither mode polls or sleeps.
+2. Per message, each loop body calls `parse_arbitration_id` to get `prio`/`dgn`/`src`, then calls
+   `rvc_decode(dgn, hex_data, spec)` where `spec` is built once at startup by
    `merge_specs(*[load_spec(f) for f in specfiles])` over every `-s` path given (or the RV-C+J1939 default pair).
 3. `rvc_decode` looks up the DGN in `spec`, applies each `parameter` definition to pull bytes/bits out of the
    raw hex payload, converts units, and resolves enumerated `values`.
