@@ -6,6 +6,9 @@ import argparse,array,can,json,os,queue,re,signal,threading,time
 import ruamel.yaml as yaml
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from rvc_decode import rvc_decode, load_spec, merge_specs, parse_arbitration_id
+
 
 def signal_handler(signal, frame):
     global t
@@ -28,171 +31,6 @@ class CANWatcher(threading.Thread):
             message = bus.recv()
             q.put(message)  # Put message into queue
 
-def rvc_decode(mydgn, mydata):
-    result = {'data':mydata, 'name':"UNKNOWN-"+mydgn }
-    if mydgn not in spec:
-        return result
-
-    decoder = spec[mydgn]
-    result['name'] = decoder['name']
-    params = []
-    try:
-        params.extend(spec[decoder['alias']]['parameters'])
-    except:
-        pass
-
-    try:
-        params.extend(decoder['parameters'])
-    except:
-        pass
-
-    param_count = 0
-    for param in params:
-        try:
-            mybytes = get_bytes(mydata,param['byte'])
-            myvalue = int(mybytes,16) # Get the decimal value of the hex bytes
-        except:
-            # If you get here, it's because the params had more bytes than the data packet.
-            # Thus, skip the rest of the processing
-            continue
-
-        try:
-            myvalue = get_bits(myvalue,param['bit'])
-            if param['type'][:4] == 'uint':
-                myvalue = int(myvalue,2)
-        except:
-            pass
-
-        try:
-            myvalue = convert_unit(myvalue,param['unit'],param['type'])
-        except:
-            pass
-
-        result[param['name']] = myvalue
-
-        try:
-            if param['unit'].lower() == 'deg c':
-                if parameterized_strings:
-                    result[param['name'] + '_f'] = tempC2F(myvalue)
-                else:
-                    result[param['name'] + ' F'] = tempC2F(myvalue)
-        except:
-            pass
-
-        try:
-            mydef = 'undefined'
-            mydef = param['values'][int(myvalue)]
-            # int(myvalue) is a hack because the spec yaml interprets binary bits
-            # as integers instead of binary strings.
-            if parameterized_strings:
-                result[param['name'] + "_definition"] = mydef
-            else:
-                result[param['name'] + " definition"] = mydef
-        except:
-            pass
-
-        param_count += 1
-
-    if param_count == 0:
-        result['DECODER PENDING'] = 1
-
-    return result
-
-def get_bytes(mybytes,byterange):
-    try:
-        bset=byterange.split('-')
-        sub_bytes = "".join(mybytes[i:i+2] for i in range(int(bset[1])*2, (int(bset[0])-1)*2, -2))
-    except:
-        sub_bytes = mybytes[ byterange * 2 : ( byterange + 1 ) * 2 ]
-
-    return sub_bytes
-
-def get_bits(mydata,bitrange):
-    mybits="{0:08b}".format(mydata)
-    try:
-        bset=bitrange.split('-')
-        sub_bits = mybits[ 7 - int(bset[1]) : 8 - int(bset[0]) ]
-    except:
-        sub_bits = mybits[ 7 - bitrange : 8 - bitrange ]
-
-    return sub_bits
-
-# Convert a string to something easier to use as a JSON parameter by
-# converting spaces and slashes to underscores, and removing parentheses.
-# e.g.: "Manufacturer Code (LSB) in/out" => "manufacturer_code_lsb_in_out"
-def parameterize_string(string):
-    return string.translate(string.maketrans(' /', '__', '()')).lower()
-
-def tempC2F(degc):
-    return round( ( degc * 9 / 5 ) + 32, 1 )
-
-def convert_unit(myvalue,myunit,mytype):
-    new_value = myvalue
-    mu = myunit.lower()
-
-    if mu == 'pct':
-        if myvalue != 255:
-            new_value = str(myvalue / 2) + '%'
-
-    elif mu == 'deg c':
-        new_value = 'n/a'
-        if mytype == 'uint8' and myvalue != ( 1 << 8 ) - 1:
-            new_value = myvalue - 40
-        elif mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = round( ( myvalue * 0.03125 ) - 273, 2 )
-
-    elif mu == 'v':
-        new_value = 'n/a'
-        if mytype == 'uint8' and myvalue != ( 1 << 8 ) - 1:
-            new_value = myvalue
-        elif mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = round( myvalue * 0.05, 2 )
-
-    elif mu == 'a':
-        new_value = 'n/a'
-        if mytype == 'uint8':
-            new_value = myvalue
-        elif mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = round( ( myvalue * 0.05 ) - 1600 , 2)
-        elif mytype == 'uint32' and myvalue != ( 1 << 32 ) - 1:
-            new_value = round( ( myvalue * 0.001 ) - 2000000 , 3)
-
-    elif mu == 'w':
-        new_value = 'n/a'
-        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = myvalue
-
-    elif mu == 'ah':
-        new_value = 'n/a'
-        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = myvalue
-
-    elif mu == 'ohm':
-        new_value = 'n/a'
-        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = myvalue
-
-    elif mu == 'hz':
-        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = round( myvalue / 128 , 2)
-
-    elif mu == 'sec':
-        if mytype == 'uint8' and myvalue > 240 and myvalue < 251:
-            new_value = ( ( myvalue - 240 ) + 4 ) * 60
-        elif mytype == 'uint16':
-            new_value = myvalue * 2
-
-    elif mu == 'bitmap':
-        new_value = "{0:08b}".format(myvalue)
-
-    #### J1939
-
-    elif mu == 'rpm':
-        if mytype == 'uint16' and myvalue != ( 1 << 16 ) - 1:
-            new_value = round( myvalue / 8, 2)
-
-    return new_value
-
 def main():
 
     def getLine():
@@ -203,7 +41,7 @@ def main():
             if line is None: exit()
             data = json.loads(line)
             initial = {'dgn': data['dgn'], 'pri': data['pri'], 'src': data['src']}
-            myresult = initial | rvc_decode(data['dgn'], data['data'])
+            myresult = initial | rvc_decode(data['dgn'], data['data'], spec)
         ###
         else:
             if q.empty():  # Check if there is a message in queue
@@ -214,10 +52,7 @@ def main():
              print("{0:f} {1:X} ({2:X}) ".format(message.timestamp, message.arbitration_id, message.dlc),end='',flush=True)
 
             try:
-                canID = "{0:b}".format(message.arbitration_id)
-                prio  = int(canID[0:3],2)
-                dgn   = "{0:05X}".format(int(canID[4:21],2))
-                srcAD = "{0:02X}".format(int(canID[24:],2))
+                prio, dgn, srcAD = parse_arbitration_id(message.arbitration_id)
             except Exception as e:
                 if debug_level>0:
                     print(f"Failed to parse {message}: {e}")
@@ -228,7 +63,7 @@ def main():
 
                 initial = {'dgn': dgn, 'pri': prio, 'src': srcAD}
                 myresult = initial | \
-                    rvc_decode(dgn,"".join("{0:02X}".format(x) for x in message.data))
+                    rvc_decode(dgn,"".join("{0:02X}".format(x) for x in message.data), spec)
 
         # Print from either source
         print(json.dumps(myresult))
@@ -272,22 +107,20 @@ if __name__ == "__main__":
             exit()
 
     print("Loading RVC Spec file {}.".format(args.specfile), file=sys.stderr)
-    with open(args.specfile,'r') as specfile:
-        try:
-            rvc_spec=yaml.round_trip_load(specfile)
-        except yaml.YAMLError as err:
-            print(err, file=sys.stderr)
-            exit(1)
+    try:
+        rvc_spec = load_spec(args.specfile)
+    except yaml.YAMLError as err:
+        print(err, file=sys.stderr)
+        exit(1)
 
     print("Loading SAE Spec file {}.".format(args.j1939specfile), file=sys.stderr)
-    with open(args.j1939specfile,'r') as specfile:
-        try:
-            sae_spec=yaml.round_trip_load(specfile)
-        except yaml.YAMLError as err:
-            print(err, file=sys.stderr)
-            exit(1)
+    try:
+        sae_spec = load_spec(args.j1939specfile)
+    except yaml.YAMLError as err:
+        print(err, file=sys.stderr)
+        exit(1)
 
-    spec = rvc_spec | sae_spec
+    spec = merge_specs(rvc_spec, sae_spec)
 
     print("Processing start...", file=sys.stderr)
 
