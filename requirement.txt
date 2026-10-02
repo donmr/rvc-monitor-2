@@ -1,3 +1,4 @@
 python-can
 ruamel.yaml
 paho.mqtt
+pytest

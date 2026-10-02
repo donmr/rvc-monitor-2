@@ -1,0 +1,1239 @@
+{"dgn": "0EEFF", "pri": 6, "src": "06", "data": "E605AE8501893C00", "name": "UNKNOWN-0EEFF"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901FA953577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 0.506}
+{"dgn": "0FF91", "pri": 6, "src": "06", "data": "010104003C848483", "name": "UNKNOWN-0FF91"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C4CA7CFC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 31946}
+{"dgn": "1FFFB", "pri": 6, "src": "06", "data": "0178C83A01C4FFFF", "name": "DC_SOURCE_STATUS_3", "instance": 1, "device priority": 120, "state of health": 100.0, "capacity remaining": 314, "relative capacity": 98.0, "ac rms ripple": 65535}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540010000FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 0}
+{"dgn": "0FF80", "pri": 6, "src": "06", "data": "01013F4E2A000000", "name": "UNKNOWN-0FF80"}
+{"dgn": "0FF81", "pri": 6, "src": "06", "data": "0100000000144007", "name": "UNKNOWN-0FF81"}
+{"dgn": "0FF92", "pri": 6, "src": "06", "data": "0101041400003F21", "name": "UNKNOWN-0FF92"}
+{"dgn": "0FF83", "pri": 6, "src": "06", "data": "012001F88E03FFFF", "name": "UNKNOWN-0FF83"}
+{"dgn": "0FF93", "pri": 6, "src": "06", "data": "0101040084848483", "name": "UNKNOWN-0FF93"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809015F963577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 0.607}
+{"dgn": "0EA64", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EA64"}
+{"dgn": "17EFD", "pri": 6, "src": "04", "data": "544D3632302D312E", "name": "UNKNOWN-17EFD"}
+{"dgn": "17EFD", "pri": 6, "src": "04", "data": "30350A0D00000000", "name": "UNKNOWN-17EFD"}
+{"dgn": "0EADF", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EADF"}
+{"dgn": "0EABF", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EABF"}
+{"dgn": "1FEF3", "pri": 6, "src": "1E", "data": "010032FF0FFFFFFF", "name": "AWNING_STATUS", "DECODER PENDING": 1}
+{"dgn": "1FED6", "pri": 6, "src": "1E", "data": "060CFFFFFFFFFFFF", "name": "MFG_SPECIFIC_CLAIM_REQUEST", "DECODER PENDING": 1}
+{"dgn": "0EA8F", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EA8F"}
+{"dgn": "0EE00", "pri": 6, "src": "1F", "data": "7E4AC40C00000083", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EE00", "pri": 6, "src": "1F", "data": "501FDC0C00010081", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "C40101FF8100031D", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "00DF000000000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0401050000000002", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0401050100000101", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0401050200000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0401050300000101", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EE00", "pri": 6, "src": "0F", "data": "BB09DF0C00010082", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "C40101FF83000308", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "00DF000000000000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0401050000000002", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0401050100000014", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0401050200000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0401050300000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EAFA", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EAFA"}
+{"dgn": "0F004", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0F004"}
+{"dgn": "0FEF1", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0FEF1"}
+{"dgn": "0FEF2", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0FEF2"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FA47040000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 71, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "0EE00", "pri": 6, "src": "1A", "data": "FF28020E00800080", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EAFF", "pri": 6, "src": "1A", "data": "C6FF01FFFFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "0EAFF", "pri": 6, "src": "1A", "data": "96FF01FFFFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "0EAFF", "pri": 6, "src": "1A", "data": "CCFE01FFFFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "0EAFF", "pri": 6, "src": "1A", "data": "BFFE01FFFFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "1FFF4", "pri": 6, "src": "1A", "data": "FFFFFFFFFCFCFFFF", "name": "CHASSIS_MOBILITY_STATUS", "engine rpms": 65535, "vehicle speed": 65535, "park brake status": "00", "transmission lock status": "11", "engine lock status": "11", "ignition switch status": "00", "accessory switch status": "111", "transmission current gear": 255, "transmission gear selected": 255}
+{"dgn": "1FEA8", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "CHASSIS_MOBILITY_STATUS_2", "DECODER PENDING": 1}
+{"dgn": "0FEEE", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0FEEE"}
+{"dgn": "0FEF5", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0FEF5"}
+{"dgn": "0FEF7", "pri": 6, "src": "1A", "data": "FFFFFFFFFFFFFFFF", "name": "UNKNOWN-0FEF7"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F947040000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 249, "DSA": 71, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "F7FFFFF1FF08FFFF", "name": "DC_LOAD_STATUS", "instance": 247, "group": "11111111", "operating status": 255, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 8, "present current": "n/a"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FA48440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 72, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F948440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 249, "DSA": 72, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F847440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 248, "DSA": 71, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FA4F000000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 79, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "F6FFC8F1FF06787D", "name": "DC_LOAD_STATUS", "instance": 246, "group": "11111111", "operating status": 100.0, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 6, "present current": 6.0}
+{"dgn": "1FFAA", "pri": 6, "src": "1A", "data": "01FDFFFFFFFFFFFF", "name": "ATS_STATUS", "DECODER PENDING": 1}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F848440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 248, "DSA": 72, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FAFC000000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 252, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F748440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 247, "DSA": 72, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F458440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 244, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFAD", "pri": 6, "src": "1A", "data": "790000FFFFFFFFFF", "name": "ATS_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": "n/a", "frequency": 65535, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "input output type": "1", "source": "111", "leg": "0"}
+{"dgn": "1FFAD", "pri": 6, "src": "1A", "data": "F90000FFFFFFFFFF", "name": "ATS_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": "n/a", "frequency": 65535, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "input output type": "1", "source": "111", "leg": "1"}
+{"dgn": "1FFAB", "pri": 6, "src": "1A", "data": "79FFFFFFFFFFFFFF", "name": "ATS_AC_STATUS_3", "instance": 1, "waveform": "11", "phase status": "1111", "real power": "n/a", "reactive power": 65535, "harmonic distortion": 255, "complementary leg": 255, "input output type": "1", "source": "111", "leg": "0"}
+{"dgn": "1FFAB", "pri": 6, "src": "1A", "data": "F9FFFFFFFFFFFFFF", "name": "ATS_AC_STATUS_3", "instance": 1, "waveform": "11", "phase status": "1111", "real power": "n/a", "reactive power": 65535, "harmonic distortion": 255, "complementary leg": 255, "input output type": "1", "source": "111", "leg": "1"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F358400000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 243, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE95", "pri": 6, "src": "1A", "data": "0114FFFFFFFFFFFF", "name": "BATTERY_STATUS_1", "Battery instance": 1, "DC Instance": 20, "DC voltage": "n/a", "DC current": -1999934.465}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024FFFFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 255, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F548440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 245, "DSA": 72, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F9FC440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 249, "DSA": 252, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901299B3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 1.833}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F8FC000000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 248, "DSA": 252, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0140FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 64, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0141FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 65, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0545FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 69, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0549FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 73, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "054DFFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 77, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0151FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 81, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0184FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 132, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "058DFFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 141, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "0590FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 144, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "05FAFFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 250, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "05FCFFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 252, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FFF7", "pri": 6, "src": "04", "data": "01004028FFFFFFFF", "name": "WATERHEATER_STATUS", "instance": 1, "operating modes": 0, "set point temperature": 49.0, "water temperature": "n/a", "thermostat status": "11", "burner status": "11", "ac element status": "11", "high temperature limit switch status": "11", "failure to ignite status": "11", "ac power failure status": "11", "dc power failure status": "11"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FA58000000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F958000000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 249, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "7C4A440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 124, "DSA": 74, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F858440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 248, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F758400000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 247, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 0, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F658440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 246, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F558440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 245, "DSA": 88, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "FA45440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 250, "DSA": 69, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FEB3", "pri": 6, "src": "1A", "data": "010000007DFF01FF", "name": "SOLAR_CONTROLLER_STATUS", "instance": 1, "Charge voltage": 0.0, "Charge current": 0.0, "Charge current percent of maximum": 255, "Operating state": 1, "Power-up state": "11", "Clear history": "11", "Force charge": "1111"}
+{"dgn": "1FE80", "pri": 6, "src": "1A", "data": "01FFFF0000007D28", "name": "SOLAR_CONTROLLER_BATTERY_STATUS", "instance": 1, "DC Source Instance DEPRECATED": 255, "Charger Priority DEPRECATED": 255}
+{"dgn": "1FDFF", "pri": 6, "src": "1A", "data": "010000007DFFFFFF", "name": "SOLAR_CONTROLLER_SOLAR_ARRAY_STATUS", "instance": 1, "solar array measured voltage": 0.0, "solar array measured input current": 0.0}
+{"dgn": "1FE85", "pri": 6, "src": "1A", "data": "010000FFFFFFFFFF", "name": "SOLAR_CONTROLLER_STATUS_2", "instance": 1, "Rated battery voltage": 0.0, "Rated charging current": "n/a", "Supported Battery Types": "11111111"}
+{"dgn": "1FE83", "pri": 6, "src": "1A", "data": "01FFFFFFFFFFFFFF", "name": "SOLAR_CONTROLLER_STATUS_4", "instance": 1, "Today's amp-hours to battery": "n/a", "Yesterday's amp-hours to battery": "n/a", "Day befor yesterday's amp-hours to battery": "n/a"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F945040000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 249, "DSA": 69, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 0, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FE87", "pri": 6, "src": "1A", "data": "0000F000FFFFFFFF", "name": "VEHICLE_ENVIRONMENT_STATUS", "DECODER PENDING": 1}
+{"dgn": "1FE95", "pri": 6, "src": "1A", "data": "0114FFFF00943577", "name": "BATTERY_STATUS_1", "Battery instance": 1, "DC Instance": 20, "DC voltage": "n/a", "DC current": -1999962.112}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024FEFFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 127.0, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "FAFFC8F1FF0E787D", "name": "DC_LOAD_STATUS", "instance": 250, "group": "11111111", "operating status": 100.0, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 14, "present current": 6.0}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "F9FFFFF1FF50FFFF", "name": "DC_LOAD_STATUS", "instance": 249, "group": "11111111", "operating status": 255, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 80, "present current": "n/a"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "02FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 2, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0EFFA", "pri": 6, "src": "1A", "data": "0D06C8500F250100", "name": "UNKNOWN-0EFFA"}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F645440000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 246, "DSA": 69, "Alarm Triggered": 0, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "F8FFFFF1FF12FFFF", "name": "DC_LOAD_STATUS", "instance": 248, "group": "11111111", "operating status": 255, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 18, "present current": "n/a"}
+{"dgn": "1FEA8", "pri": 6, "src": "1A", "data": "FFFFFFC8FFFFFFFF", "name": "CHASSIS_MOBILITY_STATUS_2", "DECODER PENDING": 1}
+{"dgn": "1FFAD", "pri": 6, "src": "1A", "data": "790000007DFFFFFF", "name": "ATS_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": 0.0, "frequency": 65535, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "input output type": "1", "source": "111", "leg": "0"}
+{"dgn": "1FFAD", "pri": 6, "src": "1A", "data": "F90000007DFFFFFF", "name": "ATS_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": 0.0, "frequency": 65535, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "input output type": "1", "source": "111", "leg": "1"}
+{"dgn": "1FFAB", "pri": 6, "src": "1A", "data": "79C3FFFFFFFFFFFF", "name": "ATS_AC_STATUS_3", "instance": 1, "waveform": "11", "phase status": "0000", "real power": "n/a", "reactive power": 65535, "harmonic distortion": 255, "complementary leg": 255, "input output type": "1", "source": "111", "leg": "0"}
+{"dgn": "1FFAB", "pri": 6, "src": "1A", "data": "F9C3FFFFFFFFFFFF", "name": "ATS_AC_STATUS_3", "instance": 1, "waveform": "11", "phase status": "0000", "real power": "n/a", "reactive power": 65535, "harmonic distortion": 255, "complementary leg": 255, "input output type": "1", "source": "111", "leg": "1"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C44B42FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 16971}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030200010000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFFD", "pri": 6, "src": "1A", "data": "0214FFFFFFFFFFFF", "name": "DC_SOURCE_STATUS_1", "instance": 2, "device priority": 20, "dc voltage": "n/a", "dc current": "n/a"}
+{"dgn": "1FFFD", "pri": 6, "src": "1A", "data": "F914FFFFFFFFFFFF", "name": "DC_SOURCE_STATUS_1", "instance": 249, "device priority": 20, "dc voltage": "n/a", "dc current": "n/a"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030300020000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030400030000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540011A00FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 26}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030500040000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030600050000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFEC", "pri": 6, "src": "1A", "data": "30FFFFFFFFFFFFFF", "name": "LEVELING_JACK_STATUS", "DECODER PENDING": 1}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901FE9B3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.046}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030700060000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FEB3", "pri": 6, "src": "1A", "data": "01FFFFFFFFFFFFFF", "name": "SOLAR_CONTROLLER_STATUS", "instance": 1, "Charge voltage": "n/a", "Charge current": "n/a", "Charge current percent of maximum": 255, "Operating state": 255, "Power-up state": "11", "Clear history": "11", "Force charge": "1111"}
+{"dgn": "1FE82", "pri": 6, "src": "1A", "data": "01FFFF00000000FF", "name": "SOLAR_CONTROLLER_STATUS_5", "instance": 1, "Last 7 days amp-hours to battery": "n/a", "Cumulative power genertion": 0}
+{"dgn": "1FE81", "pri": 6, "src": "1A", "data": "01FFFF2022FFFFFF", "name": "SOLAR_CONTROLLER_STATUS_6", "instance": 1, "Total number of operating days": 65535, "Solar charge controller measured temperature": 0.0}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030800000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FE99", "pri": 6, "src": "04", "data": "01F0FFFFFFFFFFFF", "name": "WATERHEATER_STATUS_2", "DECODER PENDING": 1}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030900000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024FEFEFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 127.0, "Time remaining": 65534, "Time remaining interpretation": 0}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "FAFFC8F1FF70787D", "name": "DC_LOAD_STATUS", "instance": 250, "group": "11111111", "operating status": 100.0, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 112, "present current": 6.0}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030A00000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "C100010B00000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0100030B00010000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "03FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 3, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030C03E80000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030D7D000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030E9C400000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100030F00020000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FDCD", "pri": 6, "src": "1F", "data": "0100FD000022FFFF", "name": "AWNING_STATUS_2", "DECODER PENDING": 1}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031000020000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901639C3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.147}
+{"dgn": "1FECA", "pri": 6, "src": "06", "data": "0546FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 70, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031100000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031200000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031301F40000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C42521FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 8485}
+{"dgn": "1FEC9", "pri": 6, "src": "06", "data": "0178072001F88E03", "name": "DC_SOURCE_STATUS_4", "instance": 1, "device priority": 120, "desired charge state": 7, "desired dc voltage": 14.4, "desired dc current": 230.0, "battery type": 3}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "810003140FA00000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031527100000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FEC7", "pri": 6, "src": "06", "data": "0178000000FFFFFF", "name": "DC_SOURCE_STATUS_6", "instance": 1, "device priority": 120, "high voltage limit status": "00", "high voltage disconnect status": "00", "low voltage limit status": "00", "low voltage disconnect status": "00"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031600C80000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031703840000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "06FFC8F0FFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 6, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031801F40000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FDA9", "pri": 6, "src": "06", "data": "017800E000F88EFF", "name": "DC_SOURCE_LOAD_CONTROL", "DECODER PENDING": 1}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "07FFC8F0FFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 7, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031900000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031A004B0000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFDC", "pri": 6, "src": "1A", "data": "0005000000FFFFFF", "name": "GENERATOR_STATUS_1", "status": 0, "engine run time": 5, "engine load": 255, "start battery voltage": "n/a"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031B00FA0000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EEFF", "pri": 6, "src": "00", "data": "1D20ED2420963CC0", "name": "UNKNOWN-0EEFF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031C13880000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031D00DF0000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8100031E00010000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "0EFBF", "pri": 6, "src": "1F", "data": "8300030200000000", "name": "UNKNOWN-0EFBF"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "04FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 4, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030C00020000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0FF82", "pri": 6, "src": "06", "data": "01E90D0000FFFFFF", "name": "UNKNOWN-0FF82"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030200000000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0FF1F", "pri": 7, "src": "00", "data": "2799010000000000", "name": "UNKNOWN-0FF1F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "83000303024E0000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 16, "time zone": 0}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030400050000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030500010000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030600010000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030700010000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0FF0A", "pri": 7, "src": "00", "data": "2799516B0C004020", "name": "UNKNOWN-0FF0A"}
+{"dgn": "1FF80", "pri": 6, "src": "1A", "data": "40051400090F05FF", "name": "GENERATOR_DEMAND_STATUS", "Generator demand": 0, "Internal generator demand": 0, "Network generator demand": 0, "External activity detected": 1, "Manual override detected": 1, "Quiet time": 1, "Quiet tie override": 0, "Generator lock": 0, "Quiet time begin hour DEPRECATED": 20, "Quiet time begin minute DEPRECATED": 0, "Quiet time end hour DEPRECATED": 9}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030900000000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030A024E0000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030B00050000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "0EF8F", "pri": 6, "src": "1F", "data": "8300030800DF0000", "name": "UNKNOWN-0EF8F"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "05FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 5, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 17, "time zone": 0}
+{"dgn": "0EEFF", "pri": 6, "src": "01", "data": "0D40F42440AAA0C0", "name": "UNKNOWN-0EEFF"}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "F9E424FFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 249, "ambient temp": 22.12}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "FAFFFFFFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 250, "ambient temp": "n/a"}
+{"dgn": "0FF1F", "pri": 7, "src": "01", "data": "2799010000000000", "name": "UNKNOWN-0FF1F"}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "F8FFFFFFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 248, "ambient temp": "n/a"}
+{"dgn": "1FFB7", "pri": 6, "src": "1A", "data": "03FF6400004100FF", "name": "TANK_STATUS", "instance": 3, "relative level": 255, "resolution": 100, "absolute level": 0, "tank size": 65}
+{"dgn": "0FF0A", "pri": 7, "src": "01", "data": "2799516B0C004040", "name": "UNKNOWN-0FF0A"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809015D9E3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.653}
+{"dgn": "1FECA", "pri": 6, "src": "1F", "data": "0582FFFFFFFFFF0F", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 130, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "0EFDF", "pri": 6, "src": "1F", "data": "0101010000000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FED6", "pri": 6, "src": "1F", "data": "060CFFFFFFFFFFFF", "name": "MFG_SPECIFIC_CLAIM_REQUEST", "DECODER PENDING": 1}
+{"dgn": "1FECA", "pri": 6, "src": "1F", "data": "058BFFFFFFFFFF0F", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 139, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "0F", "data": "0583FFFFFFFFFF0F", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 131, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0301020000040105", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0000000002040105", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0100000014040105", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0200000000040105", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0FF04", "pri": 7, "src": "00", "data": "2799201D00000000", "name": "UNKNOWN-0FF04"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0300000000000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FECA", "pri": 6, "src": "04", "data": "0158FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 88, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "04", "data": "215EFFFFFFFFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "10", "red lamp status": "00", "dsa": 94, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "04", "data": "45650001ACFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "01", "dsa": 101, "spn-msb": 0, "spn-isb": 1, "fmi": 12, "spn-lsb": 5, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "0FF0A", "pri": 7, "src": "00", "data": "2799516B0C000020", "name": "UNKNOWN-0FF0A"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "06FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 6, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 18, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809018D9F3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.957}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "4149010303FFFFFF", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "01", "dsa": 73, "spn-msb": 1, "spn-isb": 3, "fmi": 3, "spn-lsb": 0, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "1A", "data": "458D0001ACFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "01", "dsa": 141, "spn-msb": 0, "spn-isb": 1, "fmi": 12, "spn-lsb": 5, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "07FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 7, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 19, "time zone": 0}
+{"dgn": "0FF04", "pri": 7, "src": "01", "data": "2799400D00000000", "name": "UNKNOWN-0FF04"}
+{"dgn": "0FF1C", "pri": 7, "src": "01", "data": "2799400000000000", "name": "UNKNOWN-0FF1C"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178090162A03577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 3.17}
+{"dgn": "0EEFF", "pri": 6, "src": "17", "data": "3080EE2480963CC0", "name": "UNKNOWN-0EEFF"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C41916FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 5657}
+{"dgn": "0FF1F", "pri": 7, "src": "17", "data": "2799010000000000", "name": "UNKNOWN-0FF1F"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540012700FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 39}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800900000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178090192A13577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 3.474}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF0A", "pri": 7, "src": "17", "data": "2799516B0C004080", "name": "UNKNOWN-0FF0A"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980E000000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "1FFBF", "pri": 6, "src": "1A", "data": "01FFC8FCFFFFFFFF", "name": "AC_LOAD_STATUS", "instance": 1, "group": "11111111", "operating status": 100.0, "operating mode": "00", "variable level capability": "11", "priority": "1111", "delay": 255, "demanded current": 255, "present current": "n/a"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980C000000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 20, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF0A", "pri": 7, "src": "01", "data": "2799516B0C000040", "name": "UNKNOWN-0FF0A"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980A000000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "2799806000000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 21, "time zone": 0}
+{"dgn": "0FF1C", "pri": 7, "src": "17", "data": "2799800400000000", "name": "UNKNOWN-0FF1C"}
+{"dgn": "0FF1C", "pri": 7, "src": "17", "data": "2799800600000000", "name": "UNKNOWN-0FF1C"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800C00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800D00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800E00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800F00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "27998000FF000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "27998020FF000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980400F000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980800E000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800803000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800B00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF04", "pri": 7, "src": "17", "data": "27998030FFFF0F00", "name": "UNKNOWN-0FF04"}
+{"dgn": "0FF24", "pri": 7, "src": "17", "data": "2799800A00000000", "name": "UNKNOWN-0FF24"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E100000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E200000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E300000000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 22, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901F7A13577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 3.575}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EFDF", "pri": 6, "src": "0F", "data": "0301020000000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 23, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809015DA23577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 3.677}
+{"dgn": "0FF1C", "pri": 7, "src": "17", "data": "2799800400000050", "name": "UNKNOWN-0FF1C"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 24, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178090127A33577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 3.879}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EACF", "pri": 6, "src": "1E", "data": "00EE000000000000", "name": "UNKNOWN-0EACF"}
+{"dgn": "0EE00", "pri": 6, "src": "0F", "data": "91BBC48E00000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "0FF00", "pri": 7, "src": "17", "data": "2799210000807100", "name": "UNKNOWN-0FF00"}
+{"dgn": "0FF00", "pri": 7, "src": "17", "data": "27991E0000807100", "name": "UNKNOWN-0FF00"}
+{"dgn": "1E41B", "pri": 6, "src": "07", "data": "00FFFFFFFFFFFFFF", "name": "UNKNOWN-1E41B"}
+{"dgn": "0FF15", "pri": 7, "src": "17", "data": "279980A060000000", "name": "UNKNOWN-0FF15"}
+{"dgn": "0E800", "pri": 6, "src": "00", "data": "0003000000F9FE01", "name": "UNKNOWN-0E800"}
+{"dgn": "0E800", "pri": 6, "src": "00", "data": "0002000000F9FE01", "name": "UNKNOWN-0E800"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "41000000D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 25, "time zone": 0}
+{"dgn": "0FF0E", "pri": 7, "src": "00", "data": "2799320000200008", "name": "UNKNOWN-0FF0E"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809015CA63577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 4.7}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D06700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FECA", "pri": 6, "src": "0F", "data": "016700001F000000", "name": "DM_RV", "operating status": "0001", "yellow lamp status": "00", "red lamp status": "00", "dsa": 103, "spn-msb": 0, "spn-isb": 0, "fmi": 31, "spn-lsb": 0, "occurrence count": 0, "dsa extension": 0, "bank select": 0}
+{"dgn": "1FFE1", "pri": 6, "src": "0F", "data": "0100C8C800000C00", "name": "AIR_CONDITIONER_STATUS", "instance": 1, "operating mode": 0, "max fan speed": 100.0, "max air conditioning output level": 100.0, "fan speed": 0.0, "air conditioning output level": 0.0, "dead band": 12, "second stage dead band": 0}
+{"dgn": "1FDCD", "pri": 6, "src": "0F", "data": "0100000000000000", "name": "AWNING_STATUS_2", "DECODER PENDING": 1}
+{"dgn": "1FF9C", "pri": 6, "src": "0F", "data": "0100000000000000", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 1, "ambient temp": -273.0}
+{"dgn": "1FFE2", "pri": 6, "src": "0F", "data": "01C000FFFF000000", "name": "THERMOSTAT_STATUS_1", "instance": 1, "operating mode": "0000", "fan mode": "00", "schedule mode": "11", "fan speed": 0.0, "setpoint temp heat": "n/a", "setpoint temp cool": -273.0}
+{"dgn": "1FEFA", "pri": 6, "src": "0F", "data": "01FFFF0000000000", "name": "THERMOSTAT_STATUS_2", "instance": 1, "current schedule instance": 255, "number of schedule instances": 255}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C49210FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 4242}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "83D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540013500FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 53}
+{"dgn": "1FE9F", "pri": 6, "src": "1A", "data": "F658450000FFFFFF", "name": "GENERIC_ALARM_STATUS", "instance": 246, "DSA": 88, "Alarm Triggered": 1, "Alarm Ready": 1, "Alarm is Acknowledged": 0, "Automatic Reset Enabled": 1, "Elapsed Time": 0, "Full-Time Monitoring Required": 3, "Alarm for Logging": 3, "Alarm for User Notification": 3}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901C1A63577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 4.801}
+{"dgn": "0EACF", "pri": 6, "src": "1E", "data": "00EE00", "name": "UNKNOWN-0EACF"}
+{"dgn": "1FF9C", "pri": 6, "src": "0F", "data": "011A210000000000", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 1, "ambient temp": -8.19}
+{"dgn": "1FFE2", "pri": 6, "src": "0F", "data": "01C000FFFF002400", "name": "THERMOSTAT_STATUS_1", "instance": 1, "operating mode": "0000", "fan mode": "00", "schedule mode": "11", "fan speed": 0.0, "setpoint temp heat": "n/a", "setpoint temp cool": 15.0}
+{"dgn": "0EACE", "pri": 6, "src": "1E", "data": "00EE00", "name": "UNKNOWN-0EACE"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A1401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EE00", "pri": 6, "src": "0E", "data": "0000E00C03000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 26, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C1401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C3D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EACD", "pri": 6, "src": "1E", "data": "00EE00", "name": "UNKNOWN-0EACD"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "013505FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "654100FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "664100FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "674200FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC00000000FFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000900FC0000FFFE", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "01FF0000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E1401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EE00", "pri": 6, "src": "0D", "data": "0000E00C03000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EE00", "pri": 6, "src": "0D", "data": "0000E00C02000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EACC", "pri": 6, "src": "1E", "data": "00EE00", "name": "UNKNOWN-0EACC"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EE00", "pri": 6, "src": "0C", "data": "0000E00C02000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "21004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 27, "time zone": 0}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "F9E324FFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 249, "ambient temp": 22.09}
+{"dgn": "1FEA7", "pri": 6, "src": "00", "data": "0301000000000000", "name": "ROOF_FAN_STATUS_1", "DECODER PENDING": 1}
+{"dgn": "1FFE2", "pri": 6, "src": "00", "data": "0300008026002400", "name": "THERMOSTAT_STATUS_1", "instance": 3, "operating mode": "0000", "fan mode": "00", "schedule mode": "00", "fan speed": 0.0, "setpoint temp heat": 35.0, "setpoint temp cool": 15.0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "43D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF9C", "pri": 6, "src": "00", "data": "03E71F", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 3, "ambient temp": -17.78}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "27991000F0190100", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "27990A0000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "27990B0000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "27990E0000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "27990C0000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "2799120000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "0FF1E", "pri": 7, "src": "17", "data": "2799130000000000", "name": "UNKNOWN-0FF1E"}
+{"dgn": "1F211", "pri": 6, "src": "17", "data": "0411443B0F0000FF", "name": "UNKNOWN-1F211"}
+{"dgn": "0EE00", "pri": 6, "src": "0F", "data": "0000E00C03000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FEA7", "pri": 6, "src": "0C", "data": "0201000000000000", "name": "ROOF_FAN_STATUS_1", "DECODER PENDING": 1}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFE2", "pri": 6, "src": "0D", "data": "0200008026002400", "name": "THERMOSTAT_STATUS_1", "instance": 2, "operating mode": "0000", "fan mode": "00", "schedule mode": "00", "fan speed": 0.0, "setpoint temp heat": 35.0, "setpoint temp cool": 15.0}
+{"dgn": "1FF9C", "pri": 6, "src": "0D", "data": "02D524", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 2, "ambient temp": 21.66}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "FF20DC1800000000", "name": "UNKNOWN-1FC41"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012C05FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "653500FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "663500FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "673500FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF01", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200901FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "21000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "81401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "83D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FECA", "pri": 6, "src": "04", "data": "0565FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 101, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 28, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901F6A53577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 4.598}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D00700F405007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540019100FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 145}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901F5BF3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 11.253}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF93", "pri": 6, "src": "06", "data": "0101040083848483", "name": "UNKNOWN-0FF93"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 29, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "01004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EE00", "pri": 6, "src": "0D", "data": "0000E00C02000180", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EE00", "pri": 6, "src": "0C", "data": "0000E00C02000180", "name": "UNKNOWN-0EE00"}
+{"dgn": "0FF91", "pri": 6, "src": "06", "data": "010104003C838483", "name": "UNKNOWN-0FF91"}
+{"dgn": "0EACB", "pri": 6, "src": "1E", "data": "00EE00", "name": "UNKNOWN-0EACB"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C40606FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 1542}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012A05FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "653100FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "663200FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "673200FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF02", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400902FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "41000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "23D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0EE00", "pri": 6, "src": "0B", "data": "0000E00C03000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809018AC13577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 11.658}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "43D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF93", "pri": 6, "src": "06", "data": "0101040083848383", "name": "UNKNOWN-0FF93"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC0A0100000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "61401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "624D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC060801000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC060401000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC060201000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC060101000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 30, "time zone": 0}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0400FFFFFFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0300FFFFFFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0200FFFFFFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0100FFFFFFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FECA", "pri": 6, "src": "0D", "data": "405A0102BFFFFF0F", "name": "DM_RV", "operating status": "0000", "yellow lamp status": "00", "red lamp status": "01", "dsa": 90, "spn-msb": 1, "spn-isb": 2, "fmi": 31, "spn-lsb": 5, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FECA", "pri": 6, "src": "0E", "data": "405A0103BFFFFF0F", "name": "DM_RV", "operating status": "0000", "yellow lamp status": "00", "red lamp status": "01", "dsa": 90, "spn-msb": 1, "spn-isb": 3, "fmi": 31, "spn-lsb": 5, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "83D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FECA", "pri": 6, "src": "0E", "data": "145A010303FFFF0F", "name": "DM_RV", "operating status": "0100", "yellow lamp status": "01", "red lamp status": "00", "dsa": 90, "spn-msb": 1, "spn-isb": 3, "fmi": 3, "spn-lsb": 0, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012805FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "663100FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "673100FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF03", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600903FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "61000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704261F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 31, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901C0C03577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 11.456}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E1004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "03D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF9C", "pri": 6, "src": "0F", "data": "01D0240000000000", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 1, "ambient temp": 21.5}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "23D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 32, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "41401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "424D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "43D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF0E", "pri": 7, "src": "00", "data": "2799320000200208", "name": "UNKNOWN-0FF0E"}
+{"dgn": "0FF20", "pri": 7, "src": "00", "data": "279900FF00000020", "name": "UNKNOWN-0FF20"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "653000FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF04", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800904FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "81000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "61401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 33, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178090125C13577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 11.557}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C1004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FEA7", "pri": 6, "src": "0B", "data": "0301000000000000", "name": "ROOF_FAN_STATUS_1", "DECODER PENDING": 1}
+{"dgn": "1FFE2", "pri": 6, "src": "0E", "data": "0300008026002400", "name": "THERMOSTAT_STATUS_1", "instance": 3, "operating mode": "0000", "fan mode": "00", "schedule mode": "00", "fan speed": 0.0, "setpoint temp heat": 35.0, "setpoint temp cool": 15.0}
+{"dgn": "1FF9C", "pri": 6, "src": "0E", "data": "03E71F", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 3, "ambient temp": -17.78}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E3D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF05", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00905FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A1000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "0FF93", "pri": 6, "src": "06", "data": "0101040083838383", "name": "UNKNOWN-0FF93"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "03D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 34, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178080125C13577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.557}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "21401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "224D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "23D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "0FF91", "pri": 6, "src": "06", "data": "010104003C838383", "name": "UNKNOWN-0FF91"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "41401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "43D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017809015AC03577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 11.354}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980020000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 35, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980030000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "673000FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2A05FDFFFFFF06", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00906FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C1000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980040000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A1004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980050000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C3D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980060000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E3D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 36, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "01401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "024D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "03D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "21401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "23D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "663000FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1705B8FFFFFF07", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00907FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E1000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 37, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780801C0C03577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.456}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "81004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 38, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C3D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1705B8FFFFFF08", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000908FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "01000000FFFFFFFF", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E1401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E24D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E3D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "01401F00D00700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "03D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 39, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "61004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1705B8FFFFFF09", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200909FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "83D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 40, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017808015AC03577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.354}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A200000000401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D0070000000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C1401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C24D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C3D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E201007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E3D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 41, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0201007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1705B8FFFFFF0A", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "40090AFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "41004000D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4205007D00000000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D00700F4010000", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 42, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A1401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A24D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1705B8FFFFFF0B", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "60090BFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C3D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 43, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 44, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF0C", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "80090CFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980000011", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "81401F05D03701F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "824D007D00405F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "83D01700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A3D00700F409007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 45, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF0D", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A0090DFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 46, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704262F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 47, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF0E", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C0090EFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780801F5BF3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.253}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 48, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "652F00FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF0F", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E0090FFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 49, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 50, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012705FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF10", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000910FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 51, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B0FFFFFF11", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200911FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 52, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 53, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF12", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400912FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 54, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF13", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600913FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 55, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 56, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF14", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800914FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 57, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF15", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00915FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 58, "time zone": 0}
+{"dgn": "0EE00", "pri": 6, "src": "0F", "data": "2451E70E08813C80", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EA8E", "pri": 6, "src": "1E", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EA8E"}
+{"dgn": "0EEFF", "pri": 6, "src": "0F", "data": "2451E70E08813C80", "name": "UNKNOWN-0EEFF"}
+{"dgn": "1FEE8", "pri": 6, "src": "0F", "data": "010301007DFFFFFF", "name": "INVERTER_DC_STATUS", "instance": 1, "dc voltage": 12.95, "dc amperage": 0.0}
+{"dgn": "1FF8F", "pri": 6, "src": "0F", "data": "4100FFFFFFFFFFFF", "name": "INVERTER_AC_STATUS_4", "instance": 1, "voltage fault": 0, "fault surge protection": "11", "fault high frequency": "11", "fault how frequency": "11", "bypass mode active": "11", "qualification Status": 15, "line": "00", "input/output": "01"}
+{"dgn": "1FFD5", "pri": 6, "src": "0F", "data": "41C00000007DFFFF", "name": "INVERTER_AC_STATUS_3", "instance": 1, "waveform": "00", "phase status": "0000", "real power": 0, "reactive power": 32000, "harmonic distortion": 255, "complementary leg": 255, "line": "00", "input/output": "01"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704263B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 38, "second": 59, "time zone": 0}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "4160090A7D001EFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 120.0, "rms current": 0.5, "frequency": 60.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FEBD", "pri": 6, "src": "0F", "data": "01C025FFFFFFFFFF", "name": "INVERTER_TEMPERATURE_STATUS", "instance": 1, "fet temperature": 29.0, "transformer temperature": "n/a"}
+{"dgn": "1FFD4", "pri": 6, "src": "0F", "data": "0101D0FFFFFFFFFF", "name": "INVERTER_STATUS", "instance": 1, "status": 1, "battery temperature sensor present": "00", "load sense enabled": "00"}
+{"dgn": "1FEA3", "pri": 6, "src": "0F", "data": "01FF000301007D45", "name": "CHARGER_STATUS_2", "Charger instance": 1, "DC Source instance DEPRECIATED": 255, "Charger priority": 0, "Charging voltage": 12.95, "Charging current": 0.0, "Charger temperature": 29}
+{"dgn": "0EACF", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EACF"}
+{"dgn": "1FFC7", "pri": 6, "src": "0F", "data": "010301007D0001FD", "name": "CHARGER_STATUS", "instance": 1, "charge voltage": 12.95, "charge current": 0.0, "charge current percent of maximum": 0.0, "operating state": 1, "default state on power-up": "01", "auto recharge enable": "11", "force charge": 15}
+{"dgn": "0EACE", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EACE"}
+{"dgn": "0EE00", "pri": 6, "src": "0E", "data": "0000E00C03000180", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FE95", "pri": 6, "src": "1A", "data": "0114030100943577", "name": "BATTERY_STATUS_1", "Battery instance": 1, "DC Instance": 20, "DC voltage": 12.95, "DC current": -1999962.112}
+{"dgn": "1FFC8", "pri": 6, "src": "0F", "data": "01FCFFFFFFFF00FF", "name": "CHARGER_AC_STATUS_3", "instance": 1, "waveform": "00", "phase status": "1111", "real power": "n/a", "reactive power": 65535, "harmonic distortion": 0.0, "complementary leg": 255, "line": "00", "input/output": "00"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF16", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00916FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFCA", "pri": 6, "src": "0F", "data": "010000007D0000FF", "name": "CHARGER_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": 0.0, "frequency": 0.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "00"}
+{"dgn": "0EACD", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EACD"}
+{"dgn": "1FFBD", "pri": 6, "src": "1A", "data": "F9FFC8F1FF50007D", "name": "DC_LOAD_STATUS", "instance": 249, "group": "11111111", "operating status": 100.0, "operating mode": "01", "variable level capability": "00", "priority": "1111", "delay": 255, "demanded current": 80, "present current": 0.0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 0, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B8FEFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 92.0, "Time remaining": 65534, "Time remaining interpretation": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF17", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00917FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 1, "time zone": 0}
+{"dgn": "1FFC7", "pri": 6, "src": "0F", "data": "010301D084C801FD", "name": "CHARGER_STATUS", "instance": 1, "charge voltage": 12.95, "charge current": 100.0, "charge current percent of maximum": 100.0, "operating state": 1, "default state on power-up": "01", "auto recharge enable": "11", "force charge": 15}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 2, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF18", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000918FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "0EABF", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EABF"}
+{"dgn": "0EADF", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EADF"}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "4162090A7D001EFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 120.1, "rms current": 0.5, "frequency": 60.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 3, "time zone": 0}
+{"dgn": "0EAFA", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EAFA"}
+{"dgn": "0E8FA", "pri": 6, "src": "17", "data": "01FFFFFFFFC6FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "0F", "data": "01000F00FA00EA00", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "00", "data": "01FFFFFFFFC6FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "01", "data": "01FFFFFFFFC6FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "01", "data": "01FFFFFFFF96FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "17", "data": "01FFFFFFFF96FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "00", "data": "01FFFFFFFF96FF01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "01", "data": "01FFFFFFFFCCFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "01", "data": "01FFFFFFFFBFFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "17", "data": "01FFFFFFFFCCFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "17", "data": "01FFFFFFFFBFFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "00", "data": "01FFFFFFFFCCFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "0E8FA", "pri": 6, "src": "00", "data": "01FFFFFFFFBFFE01", "name": "UNKNOWN-0E8FA"}
+{"dgn": "1FECA", "pri": 6, "src": "0F", "data": "0542FFFFFFFFFFFF", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 66, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FFC6", "pri": 6, "src": "0F", "data": "01020030FFFFD084", "name": "CHARGER_CONFIGURATION_STATUS", "instance": 1, "charging algorithm": 2, "charger mode": 0, "battery sensor present": 0, "charger installation line": 0, "battery type": 3, "battery bank size": "n/a", "maximum charging current": 100.0}
+{"dgn": "1FF96", "pri": 6, "src": "0F", "data": "01C8FF1E50FFFFFF", "name": "CHARGER_CONFIGURATION_STATUS_2", "instance": 1, "maximum charge current as percent": 100.0, "charge rate limit as percent of bank size": 255, "shore breaker size": 30, "default battery temperature": 40, "recharge voltage": "n/a"}
+{"dgn": "1FECC", "pri": 6, "src": "0F", "data": "01000020011001FF", "name": "CHARGER_CONFIGURATION_STATUS_3", "instance": 1, "bulk voltage": 0.0, "absorption voltage": 14.4, "float voltage": 13.6, "temperature compensation constant": 255}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF19", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200919FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "0EA64", "pri": 6, "src": "0F", "data": "00EE00FFFFFFFFFF", "name": "UNKNOWN-0EA64"}
+{"dgn": "0EE00", "pri": 6, "src": "04", "data": "FF00010E00000080", "name": "UNKNOWN-0EE00"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 4, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B8FFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 92.0, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 5, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012605FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1A", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "40091AFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FEA3", "pri": 6, "src": "0F", "data": "01FF000201007D45", "name": "CHARGER_STATUS_2", "Charger instance": 1, "DC Source instance DEPRECIATED": 255, "Charger priority": 0, "Charging voltage": 12.9, "Charging current": 0.0, "Charger temperature": 29}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 6, "time zone": 0}
+{"dgn": "1FEE8", "pri": 6, "src": "0F", "data": "010201007DFFFFFF", "name": "INVERTER_DC_STATUS", "instance": 1, "dc voltage": 12.9, "dc amperage": 0.0}
+{"dgn": "1FE95", "pri": 6, "src": "1A", "data": "0114020100943577", "name": "BATTERY_STATUS_1", "Battery instance": 1, "DC Instance": 20, "DC voltage": 12.9, "DC current": -1999962.112}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "415E090A7D001EFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 119.9, "rms current": 0.5, "frequency": 60.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FFC7", "pri": 6, "src": "0F", "data": "010201D084C801FD", "name": "CHARGER_STATUS", "instance": 1, "charge voltage": 12.9, "charge current": 100.0, "charge current percent of maximum": 100.0, "operating state": 1, "default state on power-up": "01", "auto recharge enable": "11", "force charge": 15}
+{"dgn": "1FEF9", "pri": 6, "src": "04", "data": "01000080260024FF", "name": "THERMOSTAT_COMMAND_1", "instance": 1, "operating mode": "0000", "fan mode": "00", "schedule mode": "00", "fan speed": 0.0, "setpoint temp heat": 35.0, "setpoint temp cool": 15.0}
+{"dgn": "0FF00", "pri": 7, "src": "04", "data": "27990F0000FF7C0F", "name": "UNKNOWN-0FF00"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1B", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "60091BFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 7, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178080190BF3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.152}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B7FFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 91.5, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 8, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1C", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "80091CFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B6FFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 91.0, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 9, "time zone": 0}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "4160090A7DF31DFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 120.0, "rms current": 0.5, "frequency": 59.9, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1D", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A0091DFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 10, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B5FFFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 90.5, "Time remaining": 65535, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 11, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1E", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C0091EFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 12, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF1F", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E0091FFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 13, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 14, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF20", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000920FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704270F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 15, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF21", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200921FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 16, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017808012BBF3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 11.051}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 17, "time zone": 0}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C40506FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 1541}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF22", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400922FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 18, "time zone": 0}
+{"dgn": "0FF00", "pri": 7, "src": "04", "data": "27991E0064FF7C0F", "name": "UNKNOWN-0FF00"}
+{"dgn": "0FF00", "pri": 7, "src": "04", "data": "27991D0000FF7C0F", "name": "UNKNOWN-0FF00"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF23", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600923FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 19, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B6FDFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 91.0, "Time remaining": 65533, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 20, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF24", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800924FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 21, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF25", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00925FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 22, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 23, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012505FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF26", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00926FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B7FDFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 91.5, "Time remaining": 65533, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 24, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780801BBBE3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 10.939}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C4A006FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 1696}
+{"dgn": "0FF0E", "pri": 7, "src": "00", "data": "27993200002002FF", "name": "UNKNOWN-0FF0E"}
+{"dgn": "1FEA5", "pri": 6, "src": "06", "data": "01780540018400FF", "name": "DC_SOURCE_STATUS_11", "DC instance": 1, "Device priority": 5, "Discharge On/Off Status": 1, "Charge On/Off Status": 1, "Charge detected": 0, "Reserve Status": 0, "Full Capacity": 320, "DC Power": 132}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF27", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00927FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 25, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 26, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF28", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000928FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "4164090A7D001EFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 120.2, "rms current": 0.5, "frequency": 60.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 27, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF29", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200929FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 28, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 29, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2A", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "40092AFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 30, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2B", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "60092BFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704271F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 31, "time zone": 0}
+{"dgn": "0EFFA", "pri": 6, "src": "04", "data": "1A17FFFFFFFFFFFF", "name": "UNKNOWN-0EFFA"}
+{"dgn": "0EF44", "pri": 6, "src": "1A", "data": "1A1500FFFFFFFFFF", "name": "UNKNOWN-0EF44"}
+{"dgn": "0EAFA", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EAFA"}
+{"dgn": "0ECFF", "pri": 6, "src": "1A", "data": "204F000CFFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "0153494C5645524C", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EF64", "pri": 6, "src": "04", "data": "32FFFFFFFFFFFFFF", "name": "UNKNOWN-0EF64"}
+{"dgn": "0EF44", "pri": 6, "src": "04", "data": "33FF0100FC0002C1", "name": "UNKNOWN-0EF44"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "024541462A544D31", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EA64", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EA64"}
+{"dgn": "0EACC", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EACC"}
+{"dgn": "0EACB", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EACB"}
+{"dgn": "0EACF", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EACF"}
+{"dgn": "0EA46", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EA46"}
+{"dgn": "0EA8F", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EA8F"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC000FC8000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC000FC9000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DCC80103000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC000FCA000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DCC9FFFF000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DCCA0209000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "033030302D312E39", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "04392D3143414E20", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "04", "data": "024D3632302D312E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "052878313030302E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "063034292A2A5747", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EACD", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EACD"}
+{"dgn": "0ECFF", "pri": 6, "src": "0B", "data": "2015000300EBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EACE", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EACE"}
+{"dgn": "0ECFF", "pri": 6, "src": "0C", "data": "2015000300EBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "0F", "data": "2050000C00EBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "04", "data": "0330352A00000000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "015472756D612AFF", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "02FFFFFFFFFFFFFF", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "0833323233393031", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "0937333232343230", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0E844", "pri": 6, "src": "0F", "data": "01000F004400EA00", "name": "UNKNOWN-0E844"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "074F2A00204D4F4E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "0A3031FFFFFFFFFF", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "0849544F52004A31", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EABF", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EABF"}
+{"dgn": "0EADF", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EADF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "0BFF2A3020202020", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0F", "data": "0C20202000000000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "1F", "data": "20280006FFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "09393339204D616E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "0A61676572004341", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EFFA", "pri": 6, "src": "04", "data": "1A1714FFFFFFFFFF", "name": "UNKNOWN-0EFFA"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "0B4E2052583A2025", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1A", "data": "0C38640000000000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0C", "data": "01444F4D45544943", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0B", "data": "01444F4D45544943", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0143617265667265", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0C", "data": "022A43435256432D", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0B", "data": "022A43435256432D", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0265206F6620436F", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0C", "data": "03313532302A2A2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0B", "data": "03313532302A2A2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "036C6F7261646F2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0444524331322A31", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "044452434875622A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0536393834333839", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0531383438333035", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0ECFF", "pri": 7, "src": "0F", "data": "2043000AFFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0639322A312A0000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "1F", "data": "0639302A302A0000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "0158414E54524558", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "022A46582D383138", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 32, "time zone": 0}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "03323031302A3134", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "0435353335353533", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "0535353533353535", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "063335353533352A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "0755313A30303030", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "08322E39385F5533", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2C", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "80092CFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "093A322E3137424E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 7, "src": "0F", "data": "0A30303033FFFFFF", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 33, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2D", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A0092DFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 34, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 35, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2E", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C0092EFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 36, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF2F", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E0092FFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 37, "time zone": 0}
+{"dgn": "1FEE8", "pri": 6, "src": "0F", "data": "010401007DFFFFFF", "name": "INVERTER_DC_STATUS", "instance": 1, "dc voltage": 13.0, "dc amperage": 0.0}
+{"dgn": "1FEA3", "pri": 6, "src": "0F", "data": "01FF000401007D45", "name": "CHARGER_STATUS_2", "Charger instance": 1, "DC Source instance DEPRECIATED": 255, "Charger priority": 0, "Charging voltage": 13.0, "Charging current": 0.0, "Charger temperature": 29}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 38, "time zone": 0}
+{"dgn": "1FE95", "pri": 6, "src": "1A", "data": "0114040100943577", "name": "BATTERY_STATUS_1", "Battery instance": 1, "DC Instance": 20, "DC voltage": 13.0, "DC current": -1999962.112}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF30", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000930FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFC7", "pri": 6, "src": "0F", "data": "010401D084C801FD", "name": "CHARGER_STATUS", "instance": 1, "charge voltage": 13.0, "charge current": 100.0, "charge current percent of maximum": 100.0, "operating state": 1, "default state on power-up": "01", "auto recharge enable": "11", "force charge": 15}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 39, "time zone": 0}
+{"dgn": "0FF04", "pri": 7, "src": "00", "data": "2799201D00020000", "name": "UNKNOWN-0FF04"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0101FFFFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC000101000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010100FFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC01010000FFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "01000000FFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0101000000FF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010100000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0102FFFFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010200FFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC000201000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "020000FFFFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0100000000006464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC01020000FFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0102000000FF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010200000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0200000000006464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0104FFFFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010400FFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC000401000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC01040000FFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0104000000FF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0300000000FF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010400000000", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC0108FFFFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC010800FFFFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FA01", "pri": 6, "src": "0C", "data": "20DC000801000000", "name": "UNKNOWN-1FA01"}
+{"dgn": "1F800", "pri": 6, "src": "04", "data": "20DC01080000FFFF", "name": "UNKNOWN-1F800"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "04000000FFFF6464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FC41", "pri": 6, "src": "0C", "data": "0300000000006464", "name": "UNKNOWN-1FC41"}
+{"dgn": "1FFB9", "pri": 6, "src": "04", "data": "01A0FFFFFFFFFFFF", "name": "DC_DIMMER_COMMAND", "instance": 1, "master brightness": 80.0, "red brightness": 255, "green brightness": 255, "blue brightness": 255, "on duration": 15, "off duration": 15}
+{"dgn": "1FFB9", "pri": 6, "src": "04", "data": "0100FFFFFFFFFFFF", "name": "DC_DIMMER_COMMAND", "instance": 1, "master brightness": 0.0, "red brightness": 255, "green brightness": 255, "blue brightness": 255, "on duration": 15, "off duration": 15}
+{"dgn": "1FFBB", "pri": 6, "src": "0F", "data": "01A0FFFFFFFFFFFF", "name": "DC_DIMMER_STATUS_1", "instance": 1, "master brightness": 80.0, "red brightness": 255, "green brightness": 255, "blue brightness": 255, "on duration": 15, "off duration": 15}
+{"dgn": "0E844", "pri": 6, "src": "0F", "data": "00FFF0FF44B9FF01", "name": "UNKNOWN-0E844"}
+{"dgn": "1FFBB", "pri": 6, "src": "0F", "data": "0100FFFFFFFFFFFF", "name": "DC_DIMMER_STATUS_1", "instance": 1, "master brightness": 0.0, "red brightness": 255, "green brightness": 255, "blue brightness": 255, "on duration": 15, "off duration": 15}
+{"dgn": "0FF00", "pri": 7, "src": "04", "data": "27991F0000FF7C0F", "name": "UNKNOWN-0FF00"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF31", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200931FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 40, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780801C2A23577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 3.778}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 41, "time zone": 0}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C41416FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 5652}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012405FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF32", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400932FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "201B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "21405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "2205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "23D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "43D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 42, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "0178080127A33577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 3.879}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B8FDFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 92.0, "Time remaining": 65533, "Time remaining interpretation": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1505B1FFFFFF33", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600933FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 43, "time zone": 0}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "4166090A7D001EFF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 120.3, "rms current": 0.5, "frequency": 60.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "001B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "01405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "0205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "03D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "017808015DA23577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 3.677}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 44, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1D05CEFFFFFF34", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800934FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 45, "time zone": 0}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E01B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E1405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "E3D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1D05CEFFFFFF35", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00935FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 46, "time zone": 0}
+{"dgn": "1FF9C", "pri": 6, "src": "0D", "data": "02C324", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 2, "ambient temp": 21.09}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704272F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 47, "time zone": 0}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "F9E224FFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 249, "ambient temp": 22.06}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1D05CEFFFFFF36", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00936FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1F211", "pri": 6, "src": "17", "data": "04C6433B0F0000FF", "name": "UNKNOWN-1F211"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C01B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C1405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "C205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFD3", "pri": 6, "src": "04", "data": "01FCFFFFFFFFFFFF", "name": "INVERTER_COMMAND", "instance": 1, "inverter enable": "00", "load sense enable": "11", "pass-through enable": "11", "inverter enable on startup": "11", "load sense enable on startup": "11", "pass-through enable on startup": "11"}
+{"dgn": "0E844", "pri": 6, "src": "0F", "data": "00FFFFFFFFD3FF01", "name": "UNKNOWN-0E844"}
+{"dgn": "1FFD4", "pri": 6, "src": "0F", "data": "0100C0FFFFFFFFFF", "name": "INVERTER_STATUS", "instance": 1, "status": 0, "battery temperature sensor present": "00", "load sense enabled": "00"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 48, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780801C39E3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.2, "dc current": 2.755}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1D05CEFFFFFF37", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00937FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 49, "time zone": 0}
+{"dgn": "0EE00", "pri": 6, "src": "0E", "data": "BB09DF0C00010082", "name": "UNKNOWN-0EE00"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "C40101FF83000308", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "00DF000000000000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EFDF", "pri": 6, "src": "0E", "data": "0401050000000002", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0E", "data": "0401050100000014", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0E", "data": "0401050200000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "0EFDF", "pri": 6, "src": "0E", "data": "0401050300000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C41E21FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 8478}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A01B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A1405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "A205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 50, "time zone": 0}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901C39E3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.755}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030C00020000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC1D05CEFFFFFF38", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000938FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030200000000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "83000303024E0000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030400050000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030500010000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030600010000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030700010000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030900000000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030A024E0000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030B00050000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "0EF8E", "pri": 6, "src": "1F", "data": "8300030800DF0000", "name": "UNKNOWN-0EF8E"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 51, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B9FDFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 92.5, "Time remaining": 65533, "Time remaining interpretation": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF39", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200939FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "801B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "81405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "8205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 52, "time zone": 0}
+{"dgn": "0EFDF", "pri": 6, "src": "0E", "data": "0301020000000000", "name": "UNKNOWN-0EFDF"}
+{"dgn": "1FECA", "pri": 6, "src": "0E", "data": "0583FFFFFFFFFF0F", "name": "DM_RV", "operating status": "0101", "yellow lamp status": "00", "red lamp status": "00", "dsa": 131, "spn-msb": 255, "spn-isb": 255, "fmi": 31, "spn-lsb": 7, "occurrence count": 127, "dsa extension": 255, "bank select": 15}
+{"dgn": "1FFFD", "pri": 6, "src": "06", "data": "01780901289F3577", "name": "DC_SOURCE_STATUS_1", "instance": 1, "device priority": 120, "dc voltage": 13.25, "dc current": 2.856}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 53, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF3A", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "40093AFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "601B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "61405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "6205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "63D00700F401007D", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 54, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF3B", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "60093BFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 55, "time zone": 0}
+{"dgn": "0EAFF", "pri": 6, "src": "04", "data": "BBFF0101FFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "1FFBB", "pri": 6, "src": "0E", "data": "0100FFFFFFFFFFFF", "name": "DC_DIMMER_STATUS_1", "instance": 1, "master brightness": 0.0, "red brightness": 255, "green brightness": 255, "blue brightness": 255, "on duration": 15, "off duration": 15}
+{"dgn": "0E844", "pri": 6, "src": "01", "data": "01FFFFFFFFBBFF01", "name": "UNKNOWN-0E844"}
+{"dgn": "0E844", "pri": 6, "src": "17", "data": "01FFFFFFFFBBFF01", "name": "UNKNOWN-0E844"}
+{"dgn": "0E844", "pri": 6, "src": "00", "data": "01FFFFFFFFBBFF01", "name": "UNKNOWN-0E844"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "401B279980000001", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "41405F00D01700F4", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FF09", "pri": 7, "src": "17", "data": "4205007D00401F00", "name": "UNKNOWN-1FF09"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 56, "time zone": 0}
+{"dgn": "0EABF", "pri": 6, "src": "04", "data": "F3FE01FFFFFFFFFF", "name": "UNKNOWN-0EABF"}
+{"dgn": "1FEF3", "pri": 6, "src": "1F", "data": "010032FF0FFFFFFF", "name": "AWNING_STATUS", "DECODER PENDING": 1}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF3C", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "80093CFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 57, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF3D", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A0093DFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 58, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024FEFDFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 127.0, "Time remaining": 65533, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704273B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 39, "second": 59, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2805F9FFFFFF3E", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C0093EFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 0, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "012305FF7FFFFF00", "name": "UNKNOWN-1F214"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF3F", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E0093FFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 1, "time zone": 0}
+{"dgn": "0EAFF", "pri": 6, "src": "04", "data": "14F001", "name": "UNKNOWN-0EAFF"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0086D0076E405349", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "01202838302D3931", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "02312D303031342D", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0330302900000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0400000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "050000362E32362E", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0631302E30000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0700000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0800000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0900000000000041", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0086D00781574B65", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0179205061642028", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0230302D3030302D", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "03303030302D3030", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0429000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "050000362E32362E", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0631302E30000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0700000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0800000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0900000000000041", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0A00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "0EAFF", "pri": 6, "src": "04", "data": "EBFE00FFFFFFFFFF", "name": "UNKNOWN-0EAFF"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0B00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "0ECFF", "pri": 6, "src": "0D", "data": "2015000300EBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "04", "data": "20110003FFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "0E", "data": "202B0007FFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "0E", "data": "2015000300EBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0C00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "0EBFF", "pri": 6, "src": "04", "data": "015452554D412A54", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0D00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0E00000031313035", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "0F37343330303238", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "1000000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "1100000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "1200000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "00", "data": "130101FFFFFFFFFF", "name": "UNKNOWN-1F014"}
+{"dgn": "0E844", "pri": 6, "src": "00", "data": "01FFFFFFFFEBFE00", "name": "UNKNOWN-0E844"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0A00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0B00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0C00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0D00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0E0000004A343630", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "0F303631372D3031", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "1037340000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "1100000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "1200000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "01", "data": "130101FFFFFFFFFF", "name": "UNKNOWN-1F014"}
+{"dgn": "0E844", "pri": 6, "src": "01", "data": "01FFFFFFFFEBFE00", "name": "UNKNOWN-0E844"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0086D007995D5256", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0131202838302D39", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0231312D30323231", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "032D303029000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0400000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "050000362E32362E", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0633322E302F362E", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0732362E33322E30", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0800000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0900000000000031", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0A2D332E322F322E", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0B34000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0C00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0D00000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0E0000004A343535", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "0F373130392D3030", "name": "UNKNOWN-1F014"}
+{"dgn": "0FF13", "pri": 7, "src": "04", "data": "2799800000008700", "name": "UNKNOWN-0FF13"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "1039350000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "1100000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "1200000000000000", "name": "UNKNOWN-1F014"}
+{"dgn": "1F014", "pri": 6, "src": "17", "data": "130101FFFFFFFFFF", "name": "UNKNOWN-1F014"}
+{"dgn": "0E844", "pri": 6, "src": "17", "data": "01FFFFFFFFEBFE00", "name": "UNKNOWN-0E844"}
+{"dgn": "1FF04", "pri": 7, "src": "17", "data": "0022279980008073", "name": "UNKNOWN-1FF04"}
+{"dgn": "1FF04", "pri": 7, "src": "17", "data": "013530305F323452", "name": "UNKNOWN-1FF04"}
+{"dgn": "1FF04", "pri": 7, "src": "17", "data": "025F335F32303234", "name": "UNKNOWN-1FF04"}
+{"dgn": "1FF04", "pri": 7, "src": "17", "data": "0331313038000000", "name": "UNKNOWN-1FF04"}
+{"dgn": "1FF04", "pri": 7, "src": "17", "data": "0400000000000000", "name": "UNKNOWN-1FF04"}
+{"dgn": "0EBFF", "pri": 6, "src": "0D", "data": "01444F4D45544943", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "01444F4D45544943", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "0143617265667265", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0D", "data": "022A43435256432D", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "022A43435256432D", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "0265206F6620436F", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0D", "data": "03313532302A2A2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "036C6F7261646F2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "03313532302A2A2A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0ECFF", "pri": 6, "src": "06", "data": "202A0006FFEBFE00", "name": "UNKNOWN-0ECFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "044452434D6F4C45", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "014C697468696F6E", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "05442A3139313838", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "026963732A4C6974", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "0633313033352A31", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "0368696F6E696373", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "0E", "data": "072A000000000000", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "042076322E322E31", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 2, "time zone": 0}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "05312A4E44303730", "name": "UNKNOWN-0EBFF"}
+{"dgn": "0EBFF", "pri": 6, "src": "06", "data": "063132353033302A", "name": "UNKNOWN-0EBFF"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF40", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000940FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 3, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF41", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200941FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 4, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 5, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF42", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400942FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 6, "time zone": 0}
+{"dgn": "0FF93", "pri": 6, "src": "06", "data": "0101040084848383", "name": "UNKNOWN-0FF93"}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF43", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600943FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 7, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 8, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF44", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800944FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 9, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF45", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00945FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 10, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 11, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF46", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00946FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 12, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF47", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00947FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 13, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 14, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF48", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000948FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704280F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 15, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF49", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200949FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 16, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 17, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4A", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "40094AFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 18, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4B", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "60094BFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 19, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 20, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4C", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "80094CFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 21, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4D", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A0094DFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 22, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 23, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4E", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C0094EFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 24, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF4F", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E0094FFC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281900", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 25, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281A00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 26, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF50", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000950FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFC", "pri": 6, "src": "06", "data": "0178A024C41D21FC", "name": "DC_SOURCE_STATUS_2", "instance": 1, "device priority": 120, "source temperature": 20.0, "state of charge": 98.0, "time remaining": 8477}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281B00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 27, "time zone": 0}
+{"dgn": "1FF9C", "pri": 6, "src": "1A", "data": "F9E624FFFFFFFFFF", "name": "THERMOSTAT_AMBIENT_STATUS", "instance": 249, "ambient temp": 22.19}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF51", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200951FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281C00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 28, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281D00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 29, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF52", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "400952FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281E00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 30, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF53", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "600953FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704281F00", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 31, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282000", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 32, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF54", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "800954FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282100", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 33, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF55", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "A00955FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282200", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 34, "time zone": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282300", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 35, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF56", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "C00956FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282400", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 36, "time zone": 0}
+{"dgn": "1FFD7", "pri": 6, "src": "0F", "data": "410000007D0000FF", "name": "INVERTER_AC_STATUS_1", "instance": 1, "rms voltage": 0.0, "rms current": 0.0, "frequency": 0.0, "fault open ground": "11", "fault open neutral": "11", "fault reverse polarity": "11", "fault ground current": "11", "line": "00", "input/output": "01"}
+{"dgn": "1FFC7", "pri": 6, "src": "0F", "data": "010401007D0001FD", "name": "CHARGER_STATUS", "instance": 1, "charge voltage": 13.0, "charge current": 0.0, "charge current percent of maximum": 0.0, "operating state": 1, "default state on power-up": "01", "auto recharge enable": "11", "force charge": 15}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF57", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "E00957FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282500", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 37, "time zone": 0}
+{"dgn": "1FE94", "pri": 6, "src": "1A", "data": "0114A024B9FEFFFC", "name": "BATTERY_STATUS_2", "Battery instance": 1, "DC Instance": 20, "Source temperature": 20.0, "State of charge": 92.5, "Time remaining": 65534, "Time remaining interpretation": 0}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282600", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 38, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF58", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "000958FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282700", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 39, "time zone": 0}
+{"dgn": "1F214", "pri": 6, "src": "17", "data": "FC2905F9FFFFFF59", "name": "UNKNOWN-1F214"}
+{"dgn": "1F212", "pri": 6, "src": "17", "data": "200959FC0000FF00", "name": "UNKNOWN-1F212"}
+{"dgn": "1FFFF", "pri": 6, "src": "1A", "data": "0202030704282800", "name": "DATE_TIME_STATUS", "year": 2, "month": 2, "date": 3, "day of week": 7, "hour": 4, "minute": 40, "second": 40, "time zone": 0}
