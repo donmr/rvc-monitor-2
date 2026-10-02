@@ -24,8 +24,10 @@ The entry point is `usr/bin/rvc-monitor-2`, a thin wrapper that calls the Python
 
 Key flags (see `usr/bin/rvc-monitor-2` argparse block): `-i/--interface` (CAN iface, default `can0`),
 `-r/--replay` (read a previously saved `.rvc` JSON-lines file instead of a live bus — mutually exclusive with
-live CAN), `-s/--specfile` (RV-C spec YAML, default `/etc/rvc/rvc-spec.yml`), `-j/--j1939specfile` (SAE J1939
-spec YAML, default `/etc/rvc/sae-j1939.yml`), `-d/--debug {0,1,2}`.
+live CAN), `-s/--specfile` (spec YAML; repeatable — `-s a.yml -s b.yml` merges both, later files winning on
+key collisions; defaults to `/etc/rvc/rvc-spec.yml` and `/etc/rvc/sae-j1939.yml` together if `-s` is never
+given, but **any** explicit `-s` fully replaces that default pair rather than adding to it), `-d/--debug {0,1,2}`.
+There is no more dedicated `-j/--j1939specfile` flag — pass the J1939 spec as another `-s`.
 
 All informational/debug output goes to **stderr**; decoded JSON results go to **stdout** only — this keeps
 `stdout` pipeable (e.g. into `jq`, or saved as a `.rvc` capture file for later `-r` replay).
@@ -39,10 +41,9 @@ that has drifted from `rvc_decode/` (below). The `etc/default/rvc2mqtt` env file
 (`/usr/bin/rvc2mqtt.py`), not `rvc-monitor-2` — keep that mismatch in mind when touching deployment files.
 
 Dependencies (`requirements.txt`): `python-can`, `ruamel.yaml`, `paho.mqtt`, `pytest`. Install with
-`pip3 install -r requirements.txt`. Note the installed `ruamel.yaml` must still support the deprecated
-`round_trip_load`/`round_trip_load_all` API (used throughout `rvc_decode/spec.py`) — the apt package
-`python3-ruamel.yaml` (0.17.x) works; a fresh `pip install ruamel.yaml` can pull a newer release that removed
-it entirely.
+`pip3 install -r requirements.txt`. `rvc_decode/spec.py` loads specs via the `ruamel.yaml.YAML()` class API
+(not the deprecated `round_trip_load`/`round_trip_load_all` functions), so it works with both the apt
+`python3-ruamel.yaml` package (0.17.x) and current PyPI releases.
 
 ## Tests
 
@@ -80,8 +81,8 @@ threading, and CLI handling so other programs can decode RV-C/J1939 frames witho
 1. A background thread (`CANWatcher`) reads raw frames from `python-can` and pushes them onto a `queue.Queue`.
    In replay mode (`-r`) there's no bus/thread at all — lines are read directly from the replay file instead.
 2. The main loop (`getLine`) pulls one message at a time, calls `parse_arbitration_id` to get
-   `prio`/`dgn`/`src`, then calls `rvc_decode(dgn, hex_data, spec)` where `spec` is the merged RV-C+J1939 spec
-   dict built once at startup (`merge_specs(load_spec(rvc_specfile), load_spec(j1939_specfile))`).
+   `prio`/`dgn`/`src`, then calls `rvc_decode(dgn, hex_data, spec)` where `spec` is built once at startup by
+   `merge_specs(*[load_spec(f) for f in specfiles])` over every `-s` path given (or the RV-C+J1939 default pair).
 3. `rvc_decode` looks up the DGN in `spec`, applies each `parameter` definition to pull bytes/bits out of the
    raw hex payload, converts units, and resolves enumerated `values`.
 4. Result is a flat dict (`dgn`/`pri`/`src` + decoded fields) printed as one JSON line to stdout. If a DGN has

@@ -1,9 +1,11 @@
-import ruamel.yaml as yaml
+from ruamel.yaml import YAML
+
+_yaml = YAML()
 
 
 def load_spec(path):
     with open(path, 'r') as specfile:
-        return yaml.round_trip_load(specfile)
+        return _yaml.load(specfile)
 
 
 def merge_specs(*specs):

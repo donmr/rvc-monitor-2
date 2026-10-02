@@ -79,11 +79,13 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--debug", default = 0, type=int, choices=[0, 1, 2], help="debug data")
     parser.add_argument("-i", "--interface", default = "can0", help="CAN interface to use")
     parser.add_argument("-r", "--replay", default = None, help="replay saved output")
-    parser.add_argument("-s", "--specfile", default = "/etc/rvc/rvc-spec.yml", help="RVC Spec file"),
-    parser.add_argument("-j", "--j1939specfile", default = "/etc/rvc/sae-j1939.yml", help="SAE J1939 Spec file")
+    parser.add_argument("-s", "--specfile", action="append", default=None,
+                         help="RVC/J1939 Spec file; repeat -s to load multiple "
+                              "(default: /etc/rvc/rvc-spec.yml and /etc/rvc/sae-j1939.yml)")
     args = parser.parse_args()
 
     debug_level = args.debug
+    specfiles = args.specfile if args.specfile is not None else ["/etc/rvc/rvc-spec.yml", "/etc/rvc/sae-j1939.yml"]
 
 ####
     if args.replay is not None:
@@ -106,21 +108,16 @@ if __name__ == "__main__":
             print('Cannot find interface.', file=sys.stderr)
             exit()
 
-    print("Loading RVC Spec file {}.".format(args.specfile), file=sys.stderr)
-    try:
-        rvc_spec = load_spec(args.specfile)
-    except yaml.YAMLError as err:
-        print(err, file=sys.stderr)
-        exit(1)
+    specs = []
+    for specfile in specfiles:
+        print("Loading Spec file {}.".format(specfile), file=sys.stderr)
+        try:
+            specs.append(load_spec(specfile))
+        except yaml.YAMLError as err:
+            print(err, file=sys.stderr)
+            exit(1)
 
-    print("Loading SAE Spec file {}.".format(args.j1939specfile), file=sys.stderr)
-    try:
-        sae_spec = load_spec(args.j1939specfile)
-    except yaml.YAMLError as err:
-        print(err, file=sys.stderr)
-        exit(1)
-
-    spec = merge_specs(rvc_spec, sae_spec)
+    spec = merge_specs(*specs)
 
     print("Processing start...", file=sys.stderr)
 
